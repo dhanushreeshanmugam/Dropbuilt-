@@ -1,0 +1,212 @@
+.elementor-kit-8 {
+  --e-global-color-primary: #1e1e1e;
+  --e-global-color-secondary: #004d6d;
+  --e-global-color-text: #737373;
+  --e-global-color-accent: #f3952d;
+  --e-global-color-98898f2: #4054b2;
+  --e-global-color-31cfbea2: #23a455;
+  --e-global-color-6a0a940f: #000;
+  --e-global-color-5add9054: #fff;
+  --e-global-color-1df574d4: #020101;
+  --e-global-color-65c32595: #eb932e;
+  --e-global-color-36c58f11: #194d6d;
+  --e-global-color-d746898: #f3952d;
+  --e-global-color-741ce06: #004d6d;
+  --e-global-color-2092601: #1e1e1e;
+  --e-global-typography-primary-font-family: "Roboto";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Roboto Slab";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Mosk";
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-family: "Roboto";
+  --e-global-typography-accent-font-size: 16px;
+  --e-global-typography-accent-font-weight: 700;
+  --e-global-typography-accent-text-transform: uppercase;
+  --e-global-typography-accent-line-height: 24px;
+  --e-global-typography-3b6d50f-font-family: "Mosk";
+  --e-global-typography-3b6d50f-font-size: 60px;
+  --e-global-typography-3b6d50f-font-weight: 700;
+  --e-global-typography-3b6d50f-line-height: 68px;
+  --e-global-typography-cdbe861-font-family: "Mosk";
+  --e-global-typography-cdbe861-font-size: 48px;
+  --e-global-typography-cdbe861-font-weight: 700;
+  --e-global-typography-cdbe861-line-height: 57px;
+  --e-global-typography-a327137-font-family: "Mosk";
+  --e-global-typography-a327137-font-size: 34px;
+  --e-global-typography-a327137-font-weight: 700;
+  --e-global-typography-a327137-line-height: 44px;
+  --e-global-typography-f40d1f2-font-family: "Mosk";
+  --e-global-typography-f40d1f2-font-size: 24px;
+  --e-global-typography-f40d1f2-font-weight: 700;
+  --e-global-typography-f40d1f2-line-height: 34px;
+  --e-global-typography-9e84494-font-family: "Mosk";
+  --e-global-typography-9e84494-font-size: 20px;
+  --e-global-typography-9e84494-font-weight: 400;
+  --e-global-typography-9e84494-line-height: 28px;
+  --e-global-typography-cdaa831-font-family: "Mosk";
+  --e-global-typography-cdaa831-font-size: 18px;
+  --e-global-typography-cdaa831-font-weight: 400;
+  --e-global-typography-cdaa831-line-height: 28px;
+  --e-global-typography-bb8cbea-font-family: "Roboto";
+  --e-global-typography-bb8cbea-font-size: 14px;
+  --e-global-typography-bb8cbea-font-weight: 400;
+  --e-global-typography-bb8cbea-line-height: 20px;
+  color: #737373;
+  font-family: mosk, Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  background-color: #fffdfb;
+}
+body {
+  overflow-x: inherit !important;
+}
+.elementor a,
+.elementor a:link,
+.elementor a:focus,
+.elementor a:active,
+.elementor a:hover {
+  text-decoration: inherit !important;
+}
+.elementor a:link,
+.elementor .smooth-hover a:link {
+  transition: inherit;
+}
+.elementor-kit-8 h1 {
+  font-family: mosk, Sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: none;
+  line-height: 68px;
+}
+.elementor-kit-8 h2 {
+  font-family: mosk, Sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.elementor-kit-8 h3 {
+  font-family: mosk, Sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.elementor-kit-8 h4 {
+  font-family: mosk, Sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+.elementor-kit-8 h5 {
+  font-family: mosk, Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.elementor-kit-8 h6 {
+  font-family: mosk, Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1140px;
+}
+.e-con {
+  --container-max-width: 1140px;
+}
+.elementor-widget:not(:last-child) {
+  margin-block-end: 20px;
+}
+.elementor-element {
+  --widgets-spacing: 20px 20px;
+}
+ {
+}
+h1.entry-title {
+  display: var(--page-title-display);
+}
+.elementor-kit-8 e-page-transition {
+  background-color: #ffbc7d;
+}
+@media (max-width: 991px) {
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1024px;
+  }
+  .e-con {
+    --container-max-width: 1024px;
+  }
+}
+@media (max-width: 690px) {
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 767px;
+  }
+  .e-con {
+    --container-max-width: 767px;
+  }
+}
+@font-face {
+  font-family: mosk;
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url(https://www.amzpathfinder.com/wp-content/uploads/2020/04/Mosk-Normal-400.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: mosk;
+  font-style: normal;
+  font-weight: 200;
+  font-display: auto;
+  src: url(https://www.amzpathfinder.com/wp-content/uploads/2020/04/Mosk-Extra-Light-200.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: mosk;
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url(https://www.amzpathfinder.com/wp-content/uploads/2020/04/Mosk-Ultra-Bold-900.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: mosk;
+  font-style: normal;
+  font-weight: 100;
+  font-display: auto;
+  src: url(https://www.amzpathfinder.com/wp-content/uploads/2020/04/Mosk-Thin-100.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: mosk;
+  font-style: normal;
+  font-weight: 600;
+  font-display: auto;
+  src: url(https://www.amzpathfinder.com/wp-content/uploads/2020/04/Mosk-Semi-Bold-600.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: mosk;
+  font-style: normal;
+  font-weight: 500;
+  font-display: auto;
+  src: url(https://www.amzpathfinder.com/wp-content/uploads/2020/04/Mosk-Medium-500.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: mosk;
+  font-style: normal;
+  font-weight: 800;
+  font-display: auto;
+  src: url(https://www.amzpathfinder.com/wp-content/uploads/2020/04/Mosk-Extra-Bold-800.woff2)
+    format("woff2");
+}
+@font-face {
+  font-family: mosk;
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+  src: url(https://www.amzpathfinder.com/wp-content/uploads/2020/04/Mosk-Bold-700.woff2)
+    format("woff2");
+}
